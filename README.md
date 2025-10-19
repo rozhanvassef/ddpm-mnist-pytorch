@@ -12,7 +12,7 @@ This project implements the DDPM algorithm as described in the paper ["Denoising
 ## Demo
 
 ### Denoising Process Video
-![Denoising Animation](path/to/denoising_video.gif)
+![Denoising Animation](denoising_video.gif)
 
 *Watch the model transform random noise into a recognizable digit through 1000 denoising steps.*
 
