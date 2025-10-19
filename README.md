@@ -88,7 +88,15 @@ Simplified loss function (MSE between true and predicted noise):
 ```
 L_simple(θ) = E_{t,x_0,ε}[||ε - ε_θ(√(ᾱ_t)x_0 + √(1-ᾱ_t)ε, t)||²]
 ```
+## Future Improvements
 
+- [ ] Increase training epochs for better quality
+- [ ] Implement DDIM for faster sampling
+- [ ] Add conditional generation (class-conditional)
+- [ ] Experiment with different noise schedules
+- [ ] Scale to higher resolution images
+- [ ] Implement latent diffusion for efficiency
+ 
 ## References
 
 - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) - Ho et al., 2020
